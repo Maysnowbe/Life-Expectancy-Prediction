@@ -22,9 +22,9 @@ After trying 2 different encoding method, Target Encoding is better than Frequen
 Then, scaling is not really important for the model, because the MAE, MSE, and R Squared is not significantly increasing.
 
 # Comparison
-1. Bagging using Frequency Encoding
+**Bagging using Frequency Encoding**
    
-**Train**
+_**Train**_
 
 -> MAE:0.179
 
@@ -32,7 +32,7 @@ Then, scaling is not really important for the model, because the MAE, MSE, and R
 
 -> R Squared: 0.999
 
-**Test**
+_**Test**_
 
 -> MAE:0.484
 
@@ -41,9 +41,10 @@ Then, scaling is not really important for the model, because the MAE, MSE, and R
 -> R Squared: 0.995
 
 
-2. Bagging using Target Encoding
+
+**Bagging using Target Encoding**
    
-**Train**
+_**Train**_
 
 -> MAE:0.156
 
@@ -51,7 +52,7 @@ Then, scaling is not really important for the model, because the MAE, MSE, and R
 
 -> R Squared: 0.999
 
-**Test**
+_**Test**_
 
 -> MAE:0.36
 
@@ -60,9 +61,10 @@ Then, scaling is not really important for the model, because the MAE, MSE, and R
 -> R Squared: 0.997
 
 
-3. Bagging & Scaling using Robust Scaler
+
+**Bagging & Scaling using Robust Scaler**
    
-**Train**
+_**Train**_
 
 -> MAE:0.152
 
@@ -70,7 +72,7 @@ Then, scaling is not really important for the model, because the MAE, MSE, and R
 
 -> R Squared: 0.999
 
-**Test**
+_**Test**_
 
 -> MAE:0.339
 
